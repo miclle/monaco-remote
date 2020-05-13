@@ -1,0 +1,27 @@
+{
+  "name": "monaco-remote",
+  "version": "0.0.1",
+  "description": "Monaco Editor for remote collaboration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miclle/monaco-remote.git"
+  },
+  "keywords": [
+    "monaco",
+    "editor",
+    "react",
+    "vscode",
+    "remote",
+    "collaboration"
+  ],
+  "author": "Miclle Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miclle/monaco-remote/issues"
+  },
+  "homepage": "https://github.com/miclle/monaco-remote#readme"
+}
