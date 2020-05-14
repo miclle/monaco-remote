@@ -2,10 +2,10 @@
   "name": "monaco-remote",
   "version": "0.0.1",
   "description": "Monaco Editor for remote collaboration",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir lib"
+    "build": "rimraf lib && babel src --out-dir lib --extensions \".ts\""
   },
   "repository": {
     "type": "git",
@@ -34,9 +34,11 @@
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
     "@types/pako": "^1.0.1",
     "babel-eslint": "^10.1.0",
     "compression-webpack-plugin": "^4.0.0",
+    "rimraf": "^3.0.2",
     "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.9.2"
   }
