@@ -1,6 +1,8 @@
 monaco-remote
 ============
 
+[Monaco Editor](https://github.com/Microsoft/monaco-editor) with remote collaboration.
+
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
 
