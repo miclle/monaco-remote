@@ -1,0 +1,14 @@
+{
+  "name": "monaco-remote-example",
+  "version": "0.0.0",
+  "description": "Monaco Editor with remote collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miclle Zheng <miclle.zheng@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "monaco-remote": "^0.0.1-beta"
+  }
+}
