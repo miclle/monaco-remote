@@ -1,6 +1,6 @@
 import { editor, IPosition } from "monaco-editor"
-import { RemoteSelection } from "./RemoteSelection"
-import { IEditorUser } from "./RemoteManager"
+import { RemoteSelection } from "./selection"
+import { IEditorUser } from "./manager"
 
 /**
  * The IRemoteSelectionManagerOptions represents the options that

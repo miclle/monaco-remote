@@ -1,7 +1,7 @@
 import { editor, IDisposable, Range, Selection } from "monaco-editor"
 import pako from "pako"
-import { RemoteCursorManager } from "./RemoteCursorManager"
-import { RemoteSelectionManager } from "./RemoteSelectionManager"
+import { RemoteCursorManager } from "./cursor.manager"
+import { RemoteSelectionManager } from "./selection.manager"
 
 export interface IEditorUser {
   uid: string

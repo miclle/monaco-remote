@@ -1,1 +1,1 @@
-export * from "./RemoteManager"
+export * from "./manager"

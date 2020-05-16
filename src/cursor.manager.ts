@@ -1,6 +1,6 @@
 import * as monaco from "monaco-editor"
-import { IEditorUser } from "./RemoteManager"
-import { RemoteCursorWidget } from "./RemoteCursorWidget"
+import { IEditorUser } from "./manager"
+import { RemoteCursorWidget } from "./cursor.widget"
 
 export interface IRemoteCursorManagerOptions {
   editor: monaco.editor.IStandaloneCodeEditor
