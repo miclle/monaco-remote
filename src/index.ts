@@ -1,1 +1,5 @@
 export * from "./manager"
+export * from "./cursor.manager"
+export * from "./cursor.widget"
+export * from "./selection.manager"
+export * from "./selection"

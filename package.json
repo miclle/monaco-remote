@@ -3,10 +3,13 @@
   "version": "0.0.1-beta",
   "description": "Monaco Editor for remote collaboration",
   "main": "lib/index.js",
+  "typings": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf lib && rimraf src/*.d.ts",
-    "build": "yarn clean && tsc --emitDeclarationOnly && babel src --out-dir lib --extensions \".ts\""
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "build": "yarn clean && yarn build:js && yarn build:types"
   },
   "repository": {
     "type": "git",
