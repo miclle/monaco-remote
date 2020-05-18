@@ -1,6 +1,6 @@
 {
   "name": "monaco-remote",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Monaco Editor for remote collaboration",
   "main": "lib/index.js",
   "typings": "src/index.d.ts",
